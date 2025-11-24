@@ -1,5 +1,5 @@
 import os
-from openpyxl import Workbook 
+from openpyxl import Workbook  # ОБЯЗАТЕЛЬНАЯ БИБЛИОТЕКА
 
 def main():
     # Создаём новый рабочий файл Excel
@@ -32,4 +32,5 @@ def main():
     print(f"\nДанные успешно сохранены в файл: {os.path.abspath(excel_filename)}")
 
 if __name__ == "__main__":
+
     main()
